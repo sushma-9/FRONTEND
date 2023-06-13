@@ -1,0 +1,31 @@
+/* **6.Child selectors-> selects specific child elements only */
+
+
+/* apply the css properties only to the paragraph elements 
+    which is child of h1 */
+/* space is considered as child  */
+
+h1 p
+{
+    color: rebeccapurple;
+}
+
+p h1
+{
+    color: orange;
+}
+
+.h1-child
+{
+    color: orangered;
+}
+
+div h1
+{
+    color: olive;
+}
+
+section h1
+{
+    color: orchid;
+}

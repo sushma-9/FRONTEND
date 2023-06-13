@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <!-- <table > -->
+        <!-- border to give table border -->
+    <table border>
+        <tr>
+            <th>SL No</th>
+            <th>NAME</th>
+            <th>DEPT</th>
+            <th>SALARY</th>
+            <th>LOCATION</th>
+            <th>GENDER</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>peter</td>
+            <td>IT</td>
+            <td>70000</td>
+            <td>newyork</td>
+            <td>male</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <table border>
+        <tr>
+            <th>NAME</th>
+            <th>DEPT</th>
+            <th>JOBROLE</th>
+            <th>EXPERIENCE</th>
+        </tr>
+        <tr>
+            <td>jhon</td>
+            <td>software engineer</td>
+            <td>Data analyst</td>
+            <td rowspan="2">5 years</td>
+        </tr>
+        <tr>
+            <td>jhon</td>
+            <td colspan="2">software engineer</td>
+            <!-- <td>Data analyst</td>
+            <td>5 years</td> -->
+        </tr>
+        <tr>
+            <td>jhon</td>
+            <td>software engineer</td>
+            <td>Data analyst</td>
+            <td>5 years</td>
+        </tr>
+    </table>
+    <br><br>
+
+
+    <table border cellpadding="10px" width="600px" align="center">
+        <tr>
+            <th colspan="6">Time Table</th>
+            <!-- <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th> -->
+        </tr>
+        <tr>
+            <th rowspan="6">Hours</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td>computer</td>
+            <td>maths</td>
+            <td>computer</td>
+            <td>maths</td>
+            <td>arts</td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td>computer</td>
+            <td>maths</td>
+            <td>computer</td>
+            <td>maths</td>
+            <td>arts</td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <th colspan="5">LUNCH</th>
+            <!-- <td></td>
+                <td></td>
+                <td></td>
+                <td></td> -->
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td>computer</td>
+            <td>maths</td>
+            <td>computer</td>
+            <td>maths</td>
+            <td rowspan="2">project</td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td>computer</td>
+            <td>maths</td>
+            <td>computer</td>
+            <td>maths</td>
+            <!-- <td></td> -->
+        </tr>
+
+    </table>
+</body>
+</html>

@@ -1,0 +1,25 @@
+/* 5.Id selectors -> selects the elements based on ID names
+    it works inside all the tag of html in which it is password*/
+
+/* idselector will override generic class selector */
+
+/* # indicates id */
+
+.good
+{
+    color: yellow;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 3px 2px red;
+    background-color: palevioletred;
+}
+
+/* only common properties are overriedden by id selectors */
+/* if property is different it will apply the class property */
+#bad
+{
+    color: blue;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 3px 2px blueviolet;
+}

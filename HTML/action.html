@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>action</title>
+</head>
+
+<body>
+    <!-- form data is sent to backend 
+        & redirecting page to loginpage(anchor page)
+        action can be image,url,
+    -->
+    <form action="./anchor.html">
+    <!-- <form action="./images/dragon.jpg"> -->
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="password">
+
+        <!-- checked to select default option-->
+        <label for="">Gender:</label>
+        <!-- checked -->
+        <input type="radio" name="Gender" checked>Male
+        <!-- disabled -->
+        <input type="radio" name="Gender" disabled>Female
+        <input type="radio" name="Gender" disabled>others
+        <br><br>
+        <input type="submit" name="Login">
+    </form>
+</body>
+
+</html>

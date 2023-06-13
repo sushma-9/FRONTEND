@@ -1,0 +1,55 @@
+.my-styles
+{
+
+    background-color: crimson;
+    height: 300px;
+    width: 300px;
+    border: 5px solid purple;
+            /* padding */
+    /* different sides different values */
+    /* short-hand : top right bottom left
+    padding: 10px 13px 20px 30px; */
+
+    /* topbottom same leftright same 
+        short-hand : topbottom leftright
+    */
+   
+    padding: 3px 5px ;
+
+    /* ============================= */
+    
+            /* margin */
+
+    /* short-hand : top right bottom left
+    margin: 10px 13px 20px 30px; */
+
+    /* topbottom same leftright same 
+        short-hand : topbottom leftright
+    */
+   
+    margin: 10px 5px ;
+
+    /* =================================== */
+
+                /* border-radius */
+    border-radius: 20px;
+            /* border corners
+            short-hand : top right bottom left
+    border: 10px 13px 20px 30px; */
+
+    border-radius: 10px 20px 30px 40px;
+
+    /* border corners
+            short-hand : topleft-bottomright topright-bottomleft
+    border: 10px 30px; */
+
+    border-radius: 20px 80px;
+
+}
+
+.good
+{
+    border-radius: 100%;
+    height:"200px";
+    width:"200px"
+}

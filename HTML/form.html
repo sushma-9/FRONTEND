@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="shortcut icon" href="./images/form.png" type="image/x-icon">
+</head>
+
+<body>
+    <form action="">
+
+        <!-- to type text -->
+        <input type="text">
+
+        <!-- to type password bullet format -->
+        <input type="password">
+
+        <!-- to submit form to database -->
+        <!-- to change name of submit value="login"-->
+        <input type="submit" value="Login">
+
+        <!-- or can use button with type="submit" -->
+        <button type="submit">Login</button>
+
+        <!-- to clear form data-->
+        <input type="reset">
+
+        <!-- to change name of reset value="clear-->
+        <input type="reset" value="clear">
+
+        <!-- placeholder to differentiate input feilds -->
+        <input type="text" placeholder="Username placeholder">
+        <input type="password" placeholder="password placeholder"> <br>
+
+        <!-- restrict the feild should not be empty -->
+        <input type="text" placeholder="Username required" required>
+        <input type="password" placeholder="password required" required><br>
+
+        <!-- restrict length to 10 atribute:maxlength-->
+        <input type="text" placeholder="Username maxlength" maxlength="10">
+
+        <!-- restrict length to min atribute:minlength -->
+        <input type="password" placeholder="password minlength" required maxlength="10" minlength="6"><br>
+
+        <!-- email -->
+        <input type="email" placeholder="enter valid email" required>
+
+        <!-- url -->
+        <input type="url" placeholder="enter valid url"><br>
+
+        <!-- number , e is allowed euler value-->
+        <input type="number" placeholder="enter valid age"><br><br>
+
+        <!-- file to upload Aadhar,voterid,markscard-->
+        <input type="file"> <br><br>
+
+        <!-- to enter min 18 max 45 age-->
+        <input type="number" placeholder="age" min="18" max="45"> <br><br>
+
+        <!-- size - to increase size-->
+        <input type="text" placeholder="Username" size="30px"> <br><br>
+        <br>
+
+        <!-- LEGEND -->
+        <!-- file to upload Aadhar placeholder does not work so use legend-->
+        <Legend>Upload Aadhar card</Legend><input type="file"> <br><br>
+
+        <!-- address,feedback rows:height, cols:width-->
+        <textarea placeholder="enter your address/feedback" cols="30" rows="10"></textarea>
+        <br>
+
+        <!-- radio buttons select one option
+        but it selects all option -->
+        <label for="">Gender:</label>
+        <input type="radio">Male
+        <input type="radio">Female
+        <input type="radio">others
+        <br><br>
+
+        <!-- name attribute it should be same for all
+            radio buttons to select one option-->
+        <label for="">Gender:</label>
+        <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female
+        <input type="radio" name="Gender">others
+        <br><br>
+
+        <!-- checked attribute in input to select default option-->
+        <!-- disabled attribute in input to disable option -->
+        <label>Gender:</label>
+        <input type="radio" name="Gender" checked>Male
+        <input type="radio" name="Gender" disabled>Female
+        <input type="radio" name="Gender" disabled>others
+        <br><br>
+
+        <!--checkbox select multiple option-->
+        <label >Skills</label>
+        <input type="checkbox">java
+        <input type="checkbox">html
+        <input type="checkbox">sql
+        <br><br>
+
+        <!-- select:option -> to create dropdown menu  -->
+        <label >select your state</label>
+        <select >
+            <option >bangalore</option>
+            <option >mangalore</option>
+            <option >mysore</option>
+            <option >mandya</option>
+            <option >madhur</option>
+        </select>
+        <br> <br>
+
+        <!-- date -->
+        <!-- to change date format use js libraries google it-->
+        <label>DOB</label>
+        <input type="date">
+
+        <!-- time -->
+        <label>time</label>
+        <input type="time">
+        
+    </form>
+</body>
+
+</html>

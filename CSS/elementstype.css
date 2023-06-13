@@ -1,0 +1,16 @@
+div
+{
+    /* default block */
+    background-color: red ;
+    /* to change block to inline */
+    display: inline;
+}
+
+a
+{
+    /* default inline */
+    background-color: blueviolet;
+    /* to change inline to block */
+    display: block;
+}
+

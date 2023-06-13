@@ -1,0 +1,45 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div
+{
+    background-color: orange;
+    /* h200px */
+    height: 200px;
+    /* w200px */
+    width: 200px;
+    /* m20px */
+    margin: 20px;
+    display: inline-block;
+    /* fsz40px */
+    font-size: 40px;
+    /* fwb */
+    font-weight: bold;
+    /* tac */
+    text-align: center;
+    /* transistion */
+    /* transition: background-color 10s,border-radius 8s; */
+    transition: all 1s;
+}
+
+/* when cursor is pointed on box 
+color shoud change to yellow */
+
+div:hover
+{
+    background-color: yellow;
+    /* background-image: url(./images/island.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    color: green;
+    border-radius: 20px;
+    /* h-offset v-offset blur-ratio spread-ratio */
+    box-shadow: 3px 3px 40px 25px red;
+    height: 250px;
+    width: 250px;
+
+}

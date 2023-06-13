@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child selector</title>
+    <link rel="stylesheet" href="childselector.css">
+</head>
+<body>
+    <!-- **6.Child selectors -->
+    
+    <p>Jspiders in p</p>
+    <p>Qspiders in p</p>
+    <p >Pypiders in p</p>
+
+    <hr>
+
+    <!-- whenever we add a tag inside tag
+        inner tag is considered as child element
+        outer tag is considered as parent element -->
+    <h1>
+        <p>i am paragraph inside h1</p>
+        <p>i am paragraph inside h1 tag</p>
+    </h1>
+
+    <hr>
+
+<!-- it does not work properly for tags 
+        so always use div,selection -->
+    <p>
+        <h1>i am h1 inside paragraph tag</h1>
+    </p>
+
+    <!-- use class selector -->
+    <p>
+        <h1 class="h1-child">i am h1 inside paragraph tag</h1>
+    </p>
+
+    <!-- div -->
+    <div>
+        <h1>i am h1 inside division tag</h1>
+    </div>
+
+    <!--section  -->
+    <section>
+        <h1>i am h1 inside section tag</h1>
+    </section>
+
+    <hr>
+
+    <p>Jspiders in p</p>
+    <p>Qspiders in p</p>
+    <p >Pypiders in p</p>
+</body>
+</html>

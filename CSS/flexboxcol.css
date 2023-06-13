@@ -1,0 +1,49 @@
+/* common property */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* parent */
+.parent
+{
+    border: 5px solid red;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+
+    /*justify content*/
+    /* when flex-direction=column---> justify-content=(works)vertically
+    and align items=(works)horiazontally */
+    /* justify-content: space-around; */
+
+    /* allign- works vertically  - flex-start,flex-end,center*/
+    /* align-content: center; */
+
+    /* flexstart flexstart center */
+   justify-content: flex-end;
+    align-items: flex-end; 
+}
+
+/* child*/
+.child {
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* flex box (flexible box) 
+->Flexbox is used to arrange html elements in the form of rows and colums
+->Flexbox provides responsive layouts which is flexible for all devices
+->When we use flexbox we have to apply flexbox properties to the parent element
+and it will be apllied to the child elements 
+-> Flexbox allows us to arrange child elements properly inside the parent
+-> flexbox replaced tables.
+
+ */

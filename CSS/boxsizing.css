@@ -1,0 +1,22 @@
+.heading
+{
+    /* whenever padding and margin is appiled ,
+    width & height is increased for the box 
+    to avoid this we have box sizing:border-box*/
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    margin: 200px;
+    padding: 50px;
+    /* check without using box-sizing */
+    box-sizing: border-box;
+}
+
+/* default specification */
+*
+{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}

@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* to display block element horizontally */
+div
+{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    margin: 10px;
+    padding: 30px;
+
+    /* displaying in same line*/
+    display: inline-block;
+}

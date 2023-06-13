@@ -1,0 +1,28 @@
+1. index.html
+2. img.html
+3. marquee.html ->day1html 
+4. anchor.html -> audio, anchor,img, 
+5. fragments.html
+6. linkinsamepage.html -> id #
+7. detail.html -> Summary and detail tags
+8. form.html -> 
+form
+input :type=text,password,submit,
+reset,url,email,number,file,radio,checkbox
+time,date
+input atributes -> type, placeholder,minlength,
+maxlength,required,value,min,max,size,checked,
+disabled 
+legend tag
+textarea tag
+checkbox: select tag , option tag
+9. action.html ->to submit data to db and redirect url
+10. method.html
+->get method and post method used  to send the data
+to backend
+-> default method is GET it shows sentisive data (password in url)
+user=cvz&password=sfa
+file:///D:/ADVANCEJAVA/FRONTEND/HTML/anchor.html?user=cvz&password=sfa&Gender=on&Login=Submit
+->POST -to send data securly use post method
+11. table.html -> day1html
+12.tags.html

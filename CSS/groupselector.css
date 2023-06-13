@@ -1,0 +1,9 @@
+/* group selector-> selects more than one type of element at a time(group of elements) */
+
+h1,p,a
+{
+    color: green;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 3px 2px red;
+}

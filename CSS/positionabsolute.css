@@ -1,0 +1,73 @@
+ /* scenario one */
+/* when position absolute is passed to any tag,
+ by default body is considered as parent  */
+
+.parent
+{
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    margin: 200px auto;
+}
+
+.child
+{
+    background-color: yellow;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    /* to see changes top:50px,left50:px */
+    top: 50px;
+    left: 50px;
+}
+
+/* scenario two */
+    /* to tell the child, that this is your parent,
+     pass postion as :relative inside the parent */
+
+      /* if you want to move the element from parent pass position-absolute */
+
+     .parent1
+     {
+         background-color: red;
+         height: 400px;
+         width: 400px;
+         margin: 200px auto;
+         position: relative;
+     }
+     
+     .child1
+     {
+         background-color: yellow;
+         height: 120px;
+         width: 90px;
+         position: absolute;
+         /* its current position moving from parent body */
+         top: 0px;
+         left: 0px;
+         /* to see changes top:50px,left50:px */
+     }
+
+      /* if you want to move the element from its own position pass position-relative */
+
+
+      .parent2
+      {
+          background-color: red;
+          height: 400px;
+          width: 400px;
+          margin: 200px auto;
+          position: relative;
+      }
+      
+      .child2
+      {
+          background-color: yellow;
+          height: 120px;
+          width: 90px;
+          position: relative;
+          /* current position of child2 */
+          top: 0px;
+          left: 0px;
+        /* to see changes top:50px,left50:px */
+      }

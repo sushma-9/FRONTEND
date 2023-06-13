@@ -1,0 +1,92 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    /* to not affect height and width*/
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: cursive;
+    background-color: rgba(128, 128, 128, 0.264);
+
+}
+
+.facebook-heading
+{
+font-size: 50px;
+color: blue;
+text-align: center;
+margin-top: 100px;
+}
+
+.facebook-form
+{
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    /* to bring block element to center */
+    margin: 20px auto;
+    border-radius: 10px;
+    /* box-shadow:x-axis yaxis blur-ratio color */
+    box-shadow: 5px 5px 10px rgba(0, 0, 255, 0.422) ;
+
+}
+
+.fb-login-heading
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+.facebook-inputs
+{
+    /* border: .5px solid purple; */
+    /* all elements placed in same row */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.fb-input
+{
+/* border: .5px solid greenyellow; */
+margin-top: 10px;
+}
+
+.username,.password
+{
+    width: 100%;
+    padding: 18px 20px;
+    border-radius: 5px;
+    /* to change borders around inputs */
+    border: 1px solid lightgrey;
+    outline: none;
+}
+
+.submit
+{
+    /* padding:topbottom  */
+    width: 100%;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    outline: none;
+    background-color: rgb(103, 103, 199);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.fb-input a 
+{
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+}
+
+.fb-input
+{
+    text-align: center;
+}

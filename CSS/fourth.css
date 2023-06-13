@@ -1,0 +1,44 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.parent
+{
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    margin: 200px auto;
+    position:relative;
+}
+
+.child
+{
+    background-color: yellow;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    /* to see changes top:50px,left50:px */
+    top: 50px;
+    left: 50px;
+}
+
+nav
+{
+    background-color: orange;
+    font-size: 30px;
+    font-weight: bold;
+
+    /* scenario 1 sticky */
+    /* it will be scrolled till some position */
+    position: sticky;
+    top: 0px;
+    /* also check value top:10px */
+
+    /* scenario two fixed */
+    /* position: fixed;
+    top: 0px;
+    width: 100%; */
+}

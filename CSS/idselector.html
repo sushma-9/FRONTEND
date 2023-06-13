@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDSelectors</title>
+    <link rel="stylesheet" href="idselector.css">
+</head>
+<body>
+    <h1 id="bad">Jspiders in h1</h1>
+    <h1>Qspiders in h1</h1>
+    <h1>Pypiders in h1</h1>
+
+    <hr>
+   
+    <p id="bad">Jspiders in p</p>
+    <p>Qspiders in p</p>
+    <p class="good">Pypiders in p</p>
+
+    <hr>
+
+    <a href="" class="good">Jspiders in a</a> <br>
+    <a href="">Qspiders in a</a> <br>
+    <a href="" id="bad">Pypiders in a</a> <br>
+
+    <!-- difference between classselectors and idselector 
+        when both classselector & idselector is passed inside same tag
+        the fist prefereces is given to "idselector" -->
+
+    <marquee behavior="alternate" direction="right" class="good" id="bad">
+        <h1>Jspiders</h1>
+    </marquee>
+</body>
+</html>

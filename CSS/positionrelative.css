@@ -1,0 +1,19 @@
+/* postion relative will consider section as parent */
+
+.parent
+{
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    margin: 200px auto;
+}
+
+.child
+{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}

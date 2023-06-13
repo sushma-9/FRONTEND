@@ -1,0 +1,70 @@
+/* common property */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* parent */
+.parent
+{
+    border: 5px solid red;
+    height: 600px;
+
+    /* all elements placed in same row */
+    display: flex;
+
+    /* to apply flex box */
+    /* default flex-direction is row */
+    flex-direction: row;
+
+    /* to reverse row : row-reverse  */
+    /* flex-direction: row-reverse; */
+
+    /* to reverse coloumn: column-reverse  */
+    /* flex-direction:column-reverse; */
+
+    /* width changes when flex is applied
+    so when there no space use wrap */
+    flex-wrap: wrap;
+
+    /*justify content - center,space-between,space-around,flex-start,flex-end */
+    /* when flex-direction=row---> justify-content=horizontally 
+    and align items=verticaly */
+    justify-content: space-around;
+
+    /* allign- works vertically  - flex-start,flex-end,center*/
+    align-content: center;
+
+    /* scenario two */
+    /*justify content - center,space-between,space-around,flex-start,flex-end */
+    
+    /* when flex-direction=column---> justify-content=vertically
+    and align items=horiazontally */
+    /* justify-content: space-around; */
+
+    /* allign- works vertically  - flex-start,flex-end,center*/
+    /* align-content: center; */
+}
+
+/* child*/
+.child {
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* flex box (flexible box) 
+->Flexbox is used to arrange html elements in the form of rows and colums
+->Flexbox provides responsive layouts which is flexible for all devices
+->When we use flexbox we have to apply flexbox properties to the parent element
+and it will be apllied to the child elements 
+-> Flexbox allows us to arrange child elements properly inside the parent
+-> flexbox replaced tables.
+
+ */

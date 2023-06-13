@@ -1,0 +1,140 @@
+1. Inlinecss.html
+
+2. Internalcss.html
+
+3. Externalcss
+    a.design.css
+    b.inlineex.html
+    c.internalex.html
+
+4. propertiesofcss.html ->for text
+
+5. propertiesimage.html ->for images
+
+6. Imagetansparency.html ->gradient colors
+
+7. selectors.html 
+
+Theory : 
+selectors-selectors are used to select ,html elements based on tag name, id name, class name.
+Types of selectors
+  1.Element selectors
+  2.Group selectors
+  3.Class selectors
+**4.Generic class selectors
+  5.Id selectors
+**6.Child selectors
+**7.Universal selectors
+
+8.elementselector.html
+9.elementselector.css
+
+10.groupselector.html
+11.groupselector.css
+
+12.classselector.html
+13.classselector.css
+
+14.genericselector.html
+15.genericselector.css
+
+16.idselector.html
+17.idselector.css
+
+18.childselector.html
+19.childselector.css
+
+20.universalselector.html
+21.universalselector.css
+
+Box Model
+
+Defination - The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+Syed Defination: every html element is considered as a box to arrage those boxes,
+                to provide perper design or layout  to those boxes we use some box model properties
+1. Content - The content of the box, where text and images appear
+2. Padding - Clears an area around the content. The padding is transparent
+3. Border - A border that goes around the padding and content
+4. Margin - Clears an area outside the border. The margin is transparent
+            space between two elements or two outlines.
+5. Outline - which is on top of border
+
+3. Border
+        /* borderproperty */
+    /* 1.size(width) 2.style 3.color */
+    /* order can be interchanged */
+    Border-style : solid,dotted,double,groove,dashed
+    Outline - which is on top of border 
+    padding - space between content and border
+    cellpadding - space between content and bordercell
+    margin - space between two elements or two outlines
+
+22.boxmodel.html 
+23.boxmodel.css ->border,padding,margin,outline properties 
+
+24.borderproperty.html
+25.borderproperty.css ->border-property each sides
+
+26.paddingproperty.html 
+27.paddingproperty.css ->padding , margin , outline each sides
+
+28.boxmodelshorthand.html 
+29.boxmodelshorthand.css ->shorthand: padding, margin, border-radius shorthand (2 values or 4 values)
+
+30.button.html
+31.button.css -> button-text,bg,border,shadow,(padding,font-weight,font-size,text-allign,border-radius)
+
+32. boxsizing.html
+33. boxsizing.css -> box-sizing: border-box;
+
+semantic tags
+    2 types of elements
+    1.block level elements : always will be displayed in different lines 
+    2. inline level elements : always will be displayed in same line
+    display property - is used to change the display behaviour of html elements
+34.elementstype.html 
+35.elementstype.css ->texts--> display: inline; display: block;
+
+36.imagedisplay.html
+37.imagedisplay.css ->image--> display: block;
+
+38.inlineblock.html
+39.inlineblock.css -> display text of block element(<div>) and place horizontally
+
+40.first.html
+41..css
+
+displayproperty - flexbox
+
+42. flexbox.html
+43. flexbox.css
+
+43. flexboxcol.html
+44. flexboxcol.css
+
+45.second.html
+46.second.css
+
+47.third.html
+48.third.css
+
+Position - relative,absolute,sticky,fixed
+49. positionabsolute.html 
+50. positionabsolute.css - text
+
+51.positionrelative.html
+52.positionrelative.css - text
+
+53.fourth.html positionsticky.html
+54.fourth.css   Position: sticky and fixed
+
+55. Positionimage.html
+56. Positionimage.css
+
+57. hover.html
+58. hover.css
+
+59. fifth.html -gallery
+
+
+61.imagegallery.html

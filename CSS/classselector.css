@@ -1,0 +1,12 @@
+/* <!--3.Class selectors-selects the elements based on class names
+        but it works only inside the tag for which class is created  --> */
+
+/* In css-> . indicates a class */
+/* syntax: tag.classname */
+p.good
+{
+    color: green;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 3px 2px red;
+}

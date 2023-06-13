@@ -1,0 +1,46 @@
+/* box model  */
+/* ctrl+enter to go to next line */
+
+/* The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. */
+
+.heading
+{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+
+    /* borderproperty */
+
+    /* 1.size(width) 2.style 3.color */
+    /* order can be interchanged */
+
+    /* solid border */
+    border: 5px solid black;
+
+    /* groove border
+    border: 5px groove black;
+
+    /* dotted border 
+    border: 5px dotted black;
+
+    /* double border 
+    border: 5px double black;
+
+    /* dashed border 
+    border: 5px dashed black; */
+    /* ==================================== */
+
+    /* outline property */
+
+    /* 1.size(width) 2.style 3.color */
+    /* order can be interchanged */
+    outline: 10px solid purple;
+
+    /* ================================= */
+    /* padding property */
+    padding: 50px;
+
+    /* ================================= */
+    /* margin property */
+    margin: 50px;
+}

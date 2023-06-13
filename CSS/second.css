@@ -1,0 +1,30 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.parent
+{
+    border: 5px solid red;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.child
+{
+    background-color: green;
+    height: 150px;
+    width: 150px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+
+/* move individual elements */

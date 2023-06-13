@@ -1,0 +1,31 @@
+/* common property */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* common property */
+.my-div {
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* hiding the elements */
+/* "visibility: hidden;"- hidding the element occuping the space */
+/* "display: none;" - hidding the element not occuping the space */
+
+/* flex box (flexible box) 
+->Flexbox is used to arrange html elements in the form of rows and colums
+->Flexbox provides responsive layouts which is flexible for all devices
+->When we use flexbox we have to apply flexbox properties to the parent element
+and it will be apllied to the child elements 
+-> Flexbox allows us to arrange child elements properly inside the parent
+-> flexbox replaced tables.
+
+ */

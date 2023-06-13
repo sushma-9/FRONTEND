@@ -1,0 +1,44 @@
+    /* padding */
+.heading
+{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border:5px solid yellowgreen;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 1px;
+    padding-right: 13px; 
+
+    /* short-hand : top right bottom left
+    padding: 10px 13px 20px 30px; */
+}
+
+
+    /* margin */
+.good
+{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border:5px solid #9acd32;
+    /* margin: 50px; */
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+    /* outline */
+
+.bad
+{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border:5px solid yellowgreen;
+    /* outline does not have top bottom left right */
+    outline: 3px groove grey;
+    /* space between border and outline */
+    outline-offset:10px;
+}

@@ -1,0 +1,10 @@
+.heading
+{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-top: 5px solid yellowgreen;
+    border-bottom:5px groove yellow;
+    border-left: 5px double plum;
+    border-right: 5px dashed blue;
+}
